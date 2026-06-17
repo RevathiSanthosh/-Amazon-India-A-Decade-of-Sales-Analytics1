@@ -1,0 +1,72 @@
+AMAZON INDIA — DATA CLEANING REPORT
+=======================================================
+
+[Q1_dates]
+  dmy_slash: 23935
+  dmy_dash: 19872
+  iso: 28087
+  invalid: 8106
+  null: 0
+  total: 80000
+  filled_with_modal: 8106
+  modal_date: 2023-03-23
+
+[Q2_prices]
+  numeric: 44144
+  symbol_stripped: 31785
+  text_fallback: 4071
+  total: 80000
+  nan_filled: 4071
+  fill_value: 2432.0
+
+[Q3_ratings]
+  direct_float: 35931
+  stars_format: 11951
+  fraction_format: 24105
+  invalid: 0
+  null: 8013
+  total: 80000
+  null_filled: 8013
+  fill_value: 3.4
+
+[Q4_cities]
+  total: 80000
+  standardized: 25277
+  unique_after: 15
+
+[Q5_booleans]
+  is_prime_member: {'true_count': 36724, 'false_count': 43276}
+  is_prime_eligible: {'true_count': 39935, 'false_count': 40065}
+  is_festival_sale: {'true_count': 33321, 'false_count': 46679}
+
+[Q6_categories]
+  total: 80000
+  standardized: 32967
+  unique_after: 8
+
+[Q7_delivery]
+  numeric: 65592
+  same_day: 2631
+  range: 1362
+  invalid: 10415
+  total: 80000
+  invalid_filled: 10415
+  fill_value: 2
+
+[Q8_duplicates]
+  before: 80000
+  exact_removed: 0
+  txnid_removed: 0
+  bulk_orders_flagged: 0
+  final_rows: 80000
+
+[Q9_outliers]
+  decimal_shift_corrected: 0
+  extreme_capped: 0
+  total_corrected: 0
+
+[Q10_payments]
+  total: 80000
+  standardized: 59952
+  unique_after: 7
+  distribution: {'UPI': 22130, 'Cash on Delivery': 13135, 'Debit Card': 12123, 'Credit Card': 11941, 'Net Banking': 8330, 'EMI': 7053, 'Amazon Pay': 5288}
